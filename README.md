@@ -2,7 +2,7 @@
 User Commands for probing in PlanetCNC running on a Mekanika EVO-M
 
 **Disclaimer**: 
-The code in this repository is tested on my Mekanika EVO-M. Situations on other users machines might be slightly different, which can cause heavy demage on your machnine if the code is not adopted accordingly. Don't run the code without having fully understood what it does and proper adoption of all variable-values to the specific situations on your machine. The author doesn't take any responsibility for any damage caused by mis-usage of the code.
+The code in this repository is tested on my Mekanika EVO-M. Situations on other users machines might be slightly different, which can cause heavy demage if the code doesn't get adopted accordingly. Don't run the code without having fully understood what it does and proper adoption of all variable-values to the specific situations on your machine. The author doesn't take any responsibility for any damage caused by mis-usage of the code.
 
 **Intention of this Repository**:
 Mekanika EVO only comes with a Z-probe for tool length measurement. 
