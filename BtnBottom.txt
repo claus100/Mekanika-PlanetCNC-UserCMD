@@ -1,0 +1,26 @@
+
+expr: "_jog_speed=0.16667" "" image="Icons/J10.svg"  imagechange="True" stroke=2 color=#ffff00 tooltip="Jog=10"
+
+---
+expr: "_jog_speed=0.08334" "" image="Icons/J5.svg"  imagechange="True" stroke=2 color=#ffff00 tooltip="Jog=5"
+---
+expr:
+---
+expr: "_jog_speed=8.333" "" image="Icons/J500.svg"  imagechange="True" stroke=2 color=#00ffff tooltip="Jog=500"
+
+---
+expr: "_jog_speed=83.333" "" image="Icons/J5k.svg"  imagechange="True" stroke=2 color=#00ffff tooltip="Jog=5k"
+
+---
+expr: "_jog_speed=83.333" "  " 
+---
+cmd: "Machine.User_Commands.UserCommand_5" "" image="Icons/Probe_Edge_2.svg"   imagechange="True" stroke=1 color=#00ff00 tooltip="ProbeEdge"
+---
+cmd: "Machine.User_Commands.UserCommand_1" "" image="Icons/Protrusion.svg"   imagechange="True" stroke=1 color=#00ff00 tooltip="Find Protrusion Center"
+---
+cmd: "Machine.User_Commands.UserCommand_2" "" image="Icons/Corner_Inside.svg"   imagechange="True" stroke=1 color=#00ff00 tooltip="Corner Inside"
+---
+cmd: "Machine.User_Commands.UserCommand_3" "" image="Icons/Corner_Outside.svg"   imagechange="True" stroke=1 color=#00ff00 tooltip="Corner Outside"
+---
+cmd: "Machine.User_Commands.UserCommand_4" "" image="Icons/Parallelism.svg"   imagechange="True" stroke=1 color=#ff0000 tooltip="Check if Parallel to Axis"
+
