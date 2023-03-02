@@ -1,11 +1,13 @@
 # Mekanika-PlanetCNC-UserCmd
-User Commands for PlanetCNC running on a Mekanika EVO-M
+User Commands for probing in PlanetCNC running on a Mekanika EVO-M
 
-Mekanika only comes with a Z-probe that allows to consider correct tool length in the work coordinate system.
-But unfortunately there is no XY-probing feature that would allow to find corners , edges, the center of holes or protrusions.
- It's not possible to connect  active XY-probes to the connector of the Z-probe because it does not provide VDD and GND.
-In general the PlanetCNC Mk3/4 controller board of the Mekanika EVO would be able to support an active XY-probe in parallel to the Z-probe.
-But the Mekanika control unit  is sealed for warranty. Opening the unit  to get access to the relevant pins of the control board would sacrifice the warranty ? 
-But there is a simple workaround to re-use the Z-probe for some sort of “poor man's” XY-probe. The corresponding scripts in /Machine/Measure need to be slightly adopted to properly handle the changed offsets. But all the underlying o-scripts provided by PlanetCNC can be fully re-used.
-The user command can be found on GitHub.
-A video showing the script in action can be found on YouTube.
+Mekanika EVO only comes with a Z-probe for tool length measurement. 
+Out of the box there is no XY-probing feature that would allow to find edges, corners or the center of holes and protrusions.
+In principle the PlanetCNC Mk3/4 controller board of the Mekanika EVO would support active XY-probes.
+But VDD and GND are not routed to the hardwired probe connector of the control unit box.
+It would be very easy to upgrade this connector, but the Mekanika control unit  is sealed for warranty. Opening the unit  to get access to the relevant pins of the control board would sacrifice the warranty? 
+
+For those who don't want to keep their warranty but won't miss y XY-probing feature there is a simple workaround to re-use the Z-probe for some sort of “poor man's” XY-probing. 
+The corresponding scripts provided in PlanetCNCs menue "Machine/Measure" need to be slightly adopted for proper handling of the changed offset situation. All the underlying sub-routines can be fully re-used.
+
+Videos showing the script in action can be found on YouTube.
