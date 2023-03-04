@@ -6,8 +6,7 @@ The code in this repository is tested on my Mekanika EVO-M. Situations on other 
 
 **Intention of this Repository**:\
 Mekanika EVO only comes with a Z-probe for semi-automated tool length measurement.\
-Out of the box there is no XY-probing feature that would allow to run PlanetCNC's measurement scripts for automatic finding of edges, corners or the center of holes and protrusions.
-Without these XY-features setting the origin of the work coordinate system with high precision is a cumbersome task and prone to human error.\
+Out of the box there is no XY-probing feature that would allow to run PlanetCNC's measurement scripts for automatic finding of edges, corners or the center of holes and protrusions. Without these XY-features setting the origin of the work coordinate system with high precision is a cumbersome task and prone to human error.\
 
 In general the feature set of  PlanetCNC's  controller board  Mk3/4  which is used in Mekanika EVO would support an active XY-probe. But VDD is not routed from the board to the probe connector socket on the back of the control unit. It would be an easy task to upgrade this connector, but the control unit is sealed for warranty. Opening the unit  would sacrifice warranty!
 
