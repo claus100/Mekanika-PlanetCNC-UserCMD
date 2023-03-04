@@ -10,6 +10,6 @@ Out of the box there is no XY-probing feature that would allow to run PlanetCNC'
 
 In general the feature set of  PlanetCNC's controller board Mk3/4  which is used in Mekanika EVO would support an active XY-probe. But VDD is not routed from the board to the probe connector socket on the back of the control unit. It would be an easy task to upgrade this connector, but the control unit is sealed for warranty. Opening the unit  would sacrifice warranty!
 
-For those who want to keep their warranty but don't want to miss the XY-probing features there is a workaround re-using the Z-probe for XY-probing. 
+For those who want to keep their warranty but don't want to miss the XY-probing features there is a workaround by  re-using the Z-probe for XY-probing or even enhancing it with a parallel measurement loop equipped with conductive probing adapter. 
 
 In the future ther will be detailed articles about this Methodology on Mekanika's home page and Videos showing the script in action will be available on YouTube.
