@@ -1,5 +1,5 @@
 # Mekanika-PlanetCNC-UserCmd
-User Commands for probing in PlanetCNC running on a Mekanika EVO-M
+User Commands for probing in PlanetCNC on a Mekanika EVO-M
 
 **Disclaimer**: \
 The code in this repository is tested on my Mekanika EVO-M. Situations on other users machines might be slightly different, which can cause heavy demage and severe injuries if the code doesn't get adopted accordingly. Don't run the code without having fully understood what it does and proper adoption of all variable-values to the specific situations on your machine. The author doesn't take any responsibility for any damage caused by mis-usage of the code!
