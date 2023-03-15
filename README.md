@@ -12,4 +12,6 @@ In general the feature set of  PlanetCNC's controller board Mk3/4  which is used
 
 For those who want to keep their warranty but don't want to miss the XY-probing features there is a workaround by  re-using the Z-probe for XY-probing or even enhancing it with a parallel measurement loop equipped with conductive probing adapter. 
 
-In the future ther will be detailed articles about this Methodology on Mekanika's home page and Videos showing the script in action will be available on YouTube.
+Videos showing those scipts in action can be found on https://www.youtube.com/@CStech.
+
+In the future ther will probably be detailed articles about this Methodology on Mekanika's home page.
